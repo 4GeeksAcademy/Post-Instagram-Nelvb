@@ -5,12 +5,9 @@ body {
     min-height: 100vh;
     background-color: black;
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
 }
 
-.caja1 {
-    float: right;
+.caja1 {justify-content: center;
     margin-top: -15px;
     margin-right: 130px;
     width: 250px;
@@ -18,17 +15,19 @@ body {
     padding-top: 0%;
 }
 
-.brand {
-    float: left;
+.brand {display: flex;
+    justify-content: space-between;
     font-size: 20px;
     margin-top: 0px;
 }
 
-.html5 {
+.html5 {display: flex;
+    justify-content: space-between;
     font-size: 8px;
 }
 
-.fa-solid {
+.fa-solid {display: flex;
+    justify-content: space-between;
     font-size: 35px;
 }
 
@@ -38,12 +37,14 @@ body {
     height: auto;
 }
 
+
 img {
     width: 100%;
     height: 100%,
 }
 
 .post-header {
+    gap: 10px;
     background-color: white;
     padding: 10px;
     display: flex;
@@ -54,32 +55,33 @@ img {
 
 
 .post-icons {
-    margin-top: 5px;
+    justify-content: space-between;
+    margin-top: 15px;
     margin-bottom: -15px;
     background-color: white;
     padding: 10px;
-    display: flex;
     font-size: 20px;
 }
 
-.comment {
-    margin-right: 10px;
+
+
+.fa-heart {display: flex;
+
+}
+.fa-comment {display: flex;
+    margin-left: 40px;
 }
 
-.heart {
-    margin-right: 10px;
-    margin-left: 5px;
+.fa-paper-plane{display: flex;
+    margin-left: 80px;
 }
-
-.bookmark {
-    margin-top: 0px;
-    margin-left: 290px;
-    float: right;
-}
+.bookmark {display: flex;
+    padding-right: 10px;
+    font-size: 20px;
+    justify-content: end;}
 
 .post-body {
     background-color: white;
     text-align: justify;
     padding: 10px;
-    margin: 5px;
-}
+    margin: 5px;}
