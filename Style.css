@@ -1,87 +1,78 @@
-body {
+.d-flex { 
     display: flex;
-    justify-content: center;
+}
+
+.align-center {
     align-items: center;
-    min-height: 100vh;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+p, h1, h2{
+    margin: 0
+}
+
+.contenido {
+    flex-direction: column;
+    width: 100%;
     background-color: black;
+    height: 100vh;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
-}
-
-.caja1 {justify-content: center;
-    margin-top: -15px;
-    margin-right: 130px;
-    width: 250px;
-    line-height: 45%;
-    padding-top: 0%;
-}
-
-.brand {display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-.html5 {display: flex;
-    justify-content: space-between;
-    font-size: 8px;
-}
-
-.fa-solid {display: flex;
-    justify-content: space-between;
-    font-size: 35px;
+    text-align: justify;
 }
 
 .post {
-    background-color: white;
-    width: 30%;
-    height: auto;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: whitesmoke;
 }
 
+.fa-solid fa-ellipsis-vertical{
+    font-size: 35px;
 
-img {
-    width: 100%;
-    height: 100%,
 }
 
 .post-header {
-    gap: 10px;
-    background-color: white;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+ .brand-html{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+}
+
+.user-post{
+    padding: 0 0.5rem;
+    line-height: 35%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.icons {
+    padding: 0.2rem 0;
+    margin-bottom: 1rem;
+}
+
+.bookmark {
+    margin-top: 0px;
+    margin-left: 290px;
+    float: right;
+}
+
+.post-footer{
+    padding: 0.5rem;
 }
 
 
 
-.post-icons {
-    justify-content: space-between;
+p{
     margin-top: 15px;
-    margin-bottom: -15px;
-    background-color: white;
-    padding: 10px;
-    font-size: 20px;
-}
-
-
-
-.fa-heart {display: flex;
-
-}
-.fa-comment {display: flex;
-    margin-left: 40px;
-}
-
-.fa-paper-plane{display: flex;
-    margin-left: 80px;
-}
-.bookmark {display: flex;
-    padding-right: 10px;
-    font-size: 20px;
-    justify-content: end;}
-
-.post-body {
-    background-color: white;
-    text-align: justify;
-    padding: 10px;
-    margin: 5px;}
+margin-bottom: 15px;}
